@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="ACC_WebSearchEngine_Group9">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                
+        <dependent-module archiveName="Text Processing.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Text Processing/Text Processing">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="Sorting.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Sorting/Sorting">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                        
+        
+        <property name="java-output-path" value="/ACC_WebSearchEngine_Group9/build/classes"/>
+        <property name="context-root" value="ACC_WebSearchEngine_Group9"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>
